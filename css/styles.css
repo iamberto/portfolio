@@ -1,0 +1,173 @@
+
+body {
+	background-color: #000000;
+}
+
+
+/*header styles*/
+
+.logo {
+	font-size:60px;
+	float:left;
+	color:#ffffff;
+	margin-right:8px;
+	display:block;
+}
+
+.fa{
+	font: normal normal normal 50px/1 FontAwesome !important;
+}
+
+.logo-text{
+	font-family: 'Quicksand', sans-serif;
+	font-weight:700;
+	margin-left:10px;
+	font-size:55px;
+	color:#ffffff;
+}
+
+.navbar-default {
+	background-color: #000000;
+	width:100%;
+	height:80px;
+	border:none;
+}
+
+
+/*end of header styles*/
+
+/*main body styles*/
+
+#mainbody{
+	background-image: url(../images/tokyogarden.jpg);
+	height:500px;
+	background-size: cover;
+	background-position:50% -10%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-top:-10px;
+}
+
+#aboutme{
+	float:right;
+	background-color: rgba(204, 204, 204, .5);
+	padding:auto ;
+	border-radius: 2px;
+	margin-top:120px;
+	margin-right:30px;
+	width:40%;
+}
+
+#aboutme .center h2{
+	font-family: 'Amatic SC', cursive;;
+	font-size:60px;
+	font-weight: 700;
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	display:block;
+}
+
+#aboutme p{
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	font-size:25px;
+	font-weight: 200; 
+}
+
+.row .center{
+	float:none;
+	margin:0 auto !important;
+}
+
+#mainbody #aboutme .container {
+	width:20%;
+	height:300px;
+}
+
+/*end of main body styles*/
+
+/*beginning of bio*/
+
+
+.biobackground{
+	width:100%;
+	height:500px;
+	overflow: hidden;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size:60px;
+	font-weight: 700;
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	display:block;
+	margin-top:-430px;
+
+}
+p{
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	font-size:25px;
+	font-weight: 200;
+	margin-bottom: 50px
+}
+
+/*end of bio*/
+/*gallery*/
+
+h3{
+	font-family: 'Amatic SC', cursive;
+	font-size:60px;
+	font-weight: 700;
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	display:block;
+	margin-top:20px;
+	margin-left:40px;
+
+}
+
+.parent{
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+.picture{
+	height:250px;
+	width:auto;
+	margin-top:50px;
+}
+/*end of gallery*/
+
+/*contact*/
+h4{	
+	font-family: 'Amatic SC', cursive;
+	font-size:40px;
+	font-weight: 400;
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	display:block;
+	margin-left:40px;
+}
+
+.mynumber{
+	width:100%;
+	height:300px;
+	overflow: hidden;
+	margin-top:50px;
+	margin-bottom:-300px;
+}
+
+footer{
+	font-family: 'Amatic SC', cursive;
+	font-size:40px;
+	font-weight: 400;
+	color:#ffffff;
+	text-shadow:1px 1px 5px #080808;
+	display:block;
+	margin-left:170px;
+	margin-top:300px;
+}
+/*end of contact*/
